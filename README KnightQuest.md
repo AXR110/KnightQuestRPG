@@ -1,10 +1,10 @@
-# 🛡️ Knight Quest
+# Knight Quest
 
 A classic retro-style 2D text-adventure RPG built in Java using **Java Swing**. Players take on the role of a knight exploring the Kingdom of Armsfall, battling monsters in random encounters, finding legendary weapons, resting at inns, and recovering the lost **Royal Amulet** to gain entry into Armsfall Fortress.
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Features](#-features)
 - [Game World & Map Flow](#-game-world--map-flow)
 - [Project Structure](#-project-structure)
@@ -18,7 +18,7 @@ A classic retro-style 2D text-adventure RPG built in Java using **Java Swing**. 
 
 ---
 
-## ✨ Features
+## Features
 
 - **Custom Swing GUI**: Built with customized `JFrame`, `JPanel`, `JButton`, and `JTextArea` components featuring custom fonts, gold border accents, and background image rendering.
 - **State & Screen Visibility Management**: Smooth transitions between the title screen and interactive game elements managed by a centralized `VisibilityManager`.
@@ -32,7 +32,7 @@ A classic retro-style 2D text-adventure RPG built in Java using **Java Swing**. 
 
 ---
 
-## 🗺️ Game World & Map Flow
+## Game World & Map Flow
 
 ```
                   ┌───────────────────────┐
@@ -56,7 +56,7 @@ A classic retro-style 2D text-adventure RPG built in Java using **Java Swing**. 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 KnightQuest/
@@ -80,7 +80,7 @@ KnightQuest/
 
 ---
 
-## 🧩 Class Overview
+## Class Overview
 
 ### Package `system`
 * **`Game.java`**: The main driver class containing the `main()` method. Instantiates UI components, state manager, story handler, and manages choice action listeners (`ChoiceHandler`).
@@ -97,7 +97,7 @@ KnightQuest/
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 To run Knight Quest, ensure you have the following installed:
 - **Java Development Kit (JDK)**: Version 8 or higher (JDK 11, 17, or 21 recommended).
@@ -111,7 +111,7 @@ javac -version
 
 ---
 
-## 🚀 How to Build & Run
+## How to Build & Run
 
 ### 1. Command Line (Terminal)
 
@@ -141,7 +141,7 @@ javac -version
 
 ---
 
-## 💡 Gameplay Tips
+## Gameplay Tips
 
 1. **Don't rush the Guard**: Attacking the Royal Guard at Armsfall Fortress with base stats will result in high damage.
 2. **Find a Better Weapon**: Travel **South** to the ruined kingdom of Alefgard early to find **The Hero's Sword**.
@@ -151,6 +151,6 @@ javac -version
 
 ---
 
-## 📜 License
+## License
 
 This project is created for educational and personal gaming purposes. Feel free to fork, customize, and extend the storyline!
